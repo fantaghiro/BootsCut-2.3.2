@@ -1,4 +1,4 @@
-boostrap-2.3.2
-==============
+Bootstrap-2.3.2
+===============
 
-Boostrap-2.3.2
+Bootstrap-2.3.2
