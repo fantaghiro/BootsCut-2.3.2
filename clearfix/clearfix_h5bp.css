@@ -1,0 +1,16 @@
+/*该版本的clearfix又称为Micro Clearfix。是HTML5 Boilerplate中使用的，支持firefox 3.5、safari 4、chrome、opera 9、IE6及以后的版本*/
+/* 现代浏览器 */
+.cf:before,
+.cf:after {
+  content:"";
+  display:table;
+}
+ 
+.cf:after {
+clear:both;
+}
+ 
+/* IE 6/7浏览器 (触发hasLayout) */
+.cf {
+  *zoom:1;
+}

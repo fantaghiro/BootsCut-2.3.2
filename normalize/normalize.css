@@ -1,0 +1,461 @@
+/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+
+/* ==========================================================================
+   HTML5 display definitions | HTML5显示定义
+   ========================================================================== */
+
+/**
+ * Correct `block` display not defined in IE 8/9.
+ * 更正没有在IE 8/9里面定义的block的显示。
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+/**
+ * Correct `inline-block` display not defined in IE 8/9.
+ * 纠正没有在IE 8/9里面未定义的inline-block的显示。
+ */
+
+audio,
+canvas,
+video {
+    display: inline-block;
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * 防止现代浏览器显示不带用controls属性的audio元素
+ * Remove excess height in iOS 5 devices.
+ * 移除在iOS 5设备中多余的高度。
+ */
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9.
+ * 处理IE 8/9里面[hidden]样式不起作用的问题。
+ * Hide the `template` element in IE, Safari, and Firefox < 22.
+ * 隐藏IE、Safari和Firefox 22之前版本的template元素。
+ */
+
+[hidden],
+template {
+    display: none;
+}
+
+/* ==========================================================================
+   Base | 基本样式
+   ========================================================================== */
+
+/**
+ * 1. Set default font family to sans-serif.
+ * 1. 将font-family默认设置为sans-serif。
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ * 2. 在不禁止用户缩放的情况下避免 iOS 设备方向更改后自动调整文本大小。
+ */
+
+html {
+    font-family: sans-serif; /* 1 */
+    -ms-text-size-adjust: 100%; /* 2 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/**
+ * Remove default margin.
+ * 删除默认的margin。
+ */
+
+body {
+    margin: 0;
+}
+
+/* ==========================================================================
+   Links | 链接
+   ========================================================================== */
+
+/**
+ * Remove the gray background color from active links in IE 10.
+ * 删除IE 10中active links的灰色背景。
+ */
+
+a {
+    background: transparent;
+}
+
+/**
+ * Address `outline` inconsistency between Chrome and other browsers.
+ * 处理在chrome以及其他浏览器间outline的不一致问题。
+ */
+
+a:focus {
+    outline: thin dotted;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ * 在所有浏览器当中，当focused或者鼠标hovered的时候，增强可读性。
+ */
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+/* ==========================================================================
+   Typography | 版面
+   ========================================================================== */
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari 5, and Chrome.
+ * 使Firefox 4+、Safari 5和Chrome中的section和article中h1的font-size和margin保持统一。
+ */
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9, Safari 5, and Chrome.
+ * 处理在IE 8/9、Safari 5和Chrome中没有的样式。
+ */
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ * 处理在Firefox 4+、Safari和Chrome中设置为bolder的样式。
+ */
+
+b,
+strong {
+    font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari 5 and Chrome.
+ * 设置Safari 5和Chrome里面没有的样式。
+ */
+
+dfn {
+    font-style: italic;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ * 将Firefox和其他浏览器的不同统一起来。
+ */
+
+hr {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ * 处理IE 8/9中没有的样式。
+ */
+
+mark {
+    background: #ff0;
+    color: #000;
+}
+
+/**
+ * Correct font family set oddly in Safari 5 and Chrome.
+ * 更正在Safari 5和Chrome里面设置的怪怪的字体。
+ */
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, serif;
+    font-size: 1em;
+}
+
+/**
+ * Improve readability of pre-formatted text in all browsers.
+ * 在所有浏览器当中，提高预格式化文本的可读性。
+ */
+
+pre {
+    white-space: pre-wrap;
+}
+
+/**
+ * Set consistent quote types.
+ * 设置一致的quote类型。"\201C" "\201D" "\2018" "\2019" 这些是用来表示单双引号的，详见页面：
+ * http://html5doctor.com/blockquote-q-cite/
+ */
+
+q {
+    quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ * 在不同浏览器中，将不同的font size设置为统一的。
+ */
+
+small {
+    font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ * 在所有浏览器中，防止sub和sup影响line-height。
+ */
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+/* ==========================================================================
+   Embedded content | 嵌入内容
+   ========================================================================== */
+
+/**
+ * Remove border when inside `a` element in IE 8/9.
+ * 在IE 8/9中，当img是被裹在a元素里面时，去除其border。
+ */
+
+img {
+    border: 0;
+}
+
+/**
+ * Correct overflow displayed oddly in IE 9.
+ * 更正IE 9中显示得怪怪的overflow。
+ * （这里其实我没看懂，可以参照这篇文章：http://davidwalsh.name/html5-boilerplate。）
+ */
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+/* ==========================================================================
+   Figures | 图解
+   ========================================================================== */
+
+/**
+ * Address margin not present in IE 8/9 and Safari 5.
+ * 处理在IE 8/0和Safari 5里面没有的margin。
+ */
+
+figure {
+    margin: 0;
+}
+
+/* ==========================================================================
+   Forms | 表单
+   ========================================================================== */
+
+/**
+ * Define consistent border, margin, and padding.
+ * 定义统一的border、margin和padding。
+ */
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9.
+ * 1. 更正IE 8/9中没有inherited的color。
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ * 2. 去除padding，这样如果它们zero out fieldsets的话，人们不会caught out。
+ *    （说实话，上面一句没看懂不会翻。）
+ */
+
+legend {
+    border: 0; /* 1 */
+    padding: 0; /* 2 */
+}
+
+/**
+ * 1. Correct font family not being inherited in all browsers.
+ * 1. 在所有浏览器里面，更正没有继承的font family。
+ * 2. Correct font size not being inherited in all browsers.
+ * 2. 在所有浏览器里面，更正没有继承的font size。
+ * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
+ * 3. 在Firefox 4+，Safari和Chrome里面，将不同的margin设置为统一的。
+ */
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 2 */
+    margin: 0; /* 3 */
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ *  校正 Firefox 3+ 用户代理样式表 (UA stylesheet) 中在 `input` 上设置 `line-height` 时使用  
+ *  `!important` 的问题。
+ */
+
+button,
+input {
+    line-height: normal;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * 纠正从button和select处继承text-transform的不一致性。
+ * All other form control elements do not inherit `text-transform` values.
+ * 所有其他表单控制元素都不继承text-transform的值。
+ * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
+ * 纠正Chrome、Safari 5+、IE 8+中button的样式继承问题。
+ * Correct `select` style inheritance in Firefox 4+ and Opera.
+ * 纠正Firefox 4+和Opera中select元素的样式继承问题。
+ */
+
+button,
+select {
+    text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 1. 防止Android 4.0.*中Webkit bug，这个bug会毁坏原生的audio和video控制。
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 2. 纠正iOS中不可以为可点击的input添加样式的问题。
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ * 3. 增强可用性，并且将image-type的input以及其他类型的input的cursor类型统一。
+ */
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button; /* 2 */
+    cursor: pointer; /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ * 重置被禁用的元素的默认cursor。
+ */
+
+button[disabled],
+html input[disabled] {
+    cursor: default;
+}
+
+/**
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 1. 纠正IE 8/9/10里面，将box sizing设置为content-box的问题。
+ * 2. Remove excess padding in IE 8/9/10.
+ * 2. 移除IE 8/9/10中多余的padding。
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 1. 在Safari 5和Chrome中，纠正appearane设置为searchfield的问题。
+ * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ * 2. 在Safari 5和Chrome中，纠正box-sizing设置为border-box的问题。（以-moz开头的还需要在未来验
+ *    证。
+ */
+
+input[type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box; /* 2 */
+    box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ * 移除在OS X系统中，Safari 5和Chrome里面的inner padding以及search cancel button。
+ */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ * 移除Firefox 4+中的inner padding还有border。
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/**
+ * 1. Remove default vertical scrollbar in IE 8/9.
+ * 1. 移除IE 8/9中默认的垂直滚动条。
+ * 2. Improve readability and alignment in all browsers.
+ * 3. 在所有的浏览器中，优化可读性以及对其方式。
+ */
+
+textarea {
+    overflow: auto; /* 1 */
+    vertical-align: top; /* 2 */
+}
+
+/* ==========================================================================
+   Tables | 平版
+   ========================================================================== */
+
+/**
+ * Remove most spacing between table cells.
+ * 移除table cells之间的大多数空隙。
+ */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}

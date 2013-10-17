@@ -1,0 +1,30 @@
+<DOCTYPE! html>
+    <html>
+        <head>
+            <title>demo of clearfix</title>
+            <link href="clearfix_bootstrap.css" rel="stylesheet">
+            <style>
+                .container {
+                    border: green solid 2px;
+                    margin-bottom: 150px;
+                }
+                .fl {
+                    width: 100px;
+                    height: 100px;
+                    border: red solid 2px;
+                    float: left;
+                }
+            </style>
+        </head>
+        <body>
+            <div class="container">外面的方块没有清除浮动。
+                <div class="fl">方块一</div>
+                <div class="fl">方块二</div>
+            </div>
+            <div class="container clearfix">外面的方块添加了bootstrap的clearfix类，因此清除了浮动。
+                <div class="fl">方块一</div>
+                <div class="fl">方块二</div>
+            </div>            
+        </body>
+    </html>
+</DOCTYPE!>
