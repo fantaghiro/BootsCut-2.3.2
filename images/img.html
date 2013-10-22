@@ -1,0 +1,25 @@
+<DOCTYPE! html>
+<html>
+    <head>
+        <title>Bootstrap的body设置</title>
+        <link href="img.css" rel="stylesheet">
+        <style>
+        img {
+            vertical-align: middle;
+        }
+        </style>
+    </head>
+    <body>
+        <p>Bootstrap中对于img有下面几个类：img-rounded、img-polaroid、img-circle。下面针对同一幅图片来分别应用这三个类加以说明。</p>
+        <p>原图片为：<img src="http://dribbble.s3.amazonaws.com/users/74401/screenshots/1276711/s_lvreven_1x.png" /></p>
+        <p>为该图片添加img-rounded类，会发现该图片的四角有6px的radius。所以类img-rounded的意义就是为图片添加小圆角：<img class="img-rounded" src="http://dribbble.s3.amazonaws.com/users/74401/screenshots/1276711/s_lvreven_1x.png" /></p>
+        <p>为该图片添加img-polaroid类，可以发现图片增加了一个像是相框的东西，其中相框的宽度其实为新增的padding: 4px，加了灰色的border，并且添加了请为的box-shadow。这里的polaroid可以理解为宝丽来相机那样一次性成像出来的照片边框：<img class="img-polaroid" src="http://dribbble.s3.amazonaws.com/users/74401/screenshots/1276711/s_lvreven_1x.png" /></p>
+        <p>为该图片添加img-circle类，可以发现图片的四角有500px的border-radius：<img class="img-circle" src="http://dribbble.s3.amazonaws.com/users/74401/screenshots/1276711/s_lvreven_1x.png" /></p>
+        <p>添加img-circle类的图片如果正好是边长500px的正方形会直接显示为一个圆：<img class="img-circle" src="http://placehold.it/500x500" /></p>
+        <p>添加img-circle类的图片如果边长小于500px的正方形，那么图片还是会显示为一个圆：<img class="img-circle" src="http://placehold.it/300x300" /></p>
+        <p>添加img-circle类的图片如果边长大于500px的正方形，那么图片还是会显示为一个圆：<img class="img-circle" src="http://placehold.it/700x700" /></p>
+        <p>添加img-circle类的图片如果边长大于1000px的正方形，那么图片不会显示为圆：<img class="img-circle" src="http://placehold.it/1200x1200" /></p>
+        <p>所以说，该img-circle在应用于正方形的图形，并且边长小于等于1000px的时候，可以完美实现一个圆circle的形状。</p>
+    </body>
+</html>
+</DOCTYPE!>

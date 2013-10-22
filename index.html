@@ -1,69 +1,122 @@
 <DOCTYPE! html>
-<html>
-    <head>
-        <title>BootsCut: Cut Bootstrap into Pieces</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <style>
-        body {
-            font-size: 18px;
-        }
-        a {
-            color: gray;
-        }
-        span, a {
-            line-height: 200%;
-            display: block;
-        }
-        ul {
-            margin-left: 0;
-            padding-left: 0;
-            border: black solid 1px;
-        }
-        li {
-            list-style-position: inside;
-            margin-left: none;
-        }
-        ul > span {
-            font-weight: 600;
-            font-size: 20px;
-            letter-spacing: .8px;
-            color: white;;
-            background-color: #2C788B;
-            padding-left: 20px;
-            text-align: center;
-        }
-        ul > li {
-            padding-left: 0px;
-        }
-        ul > li > span {
-            background-color: #A52020;
-            color: white;
-            padding-left: 20px;
-        }
-        ul > li > ul {
-            margin-left: 40px;
-            border: none;
-        }
-        </style>
-    </head>
-    <body>
-        <ul><span>Scaffolding</span>
-            <li><span>Normalize</span>
+    <html>
+        
+        <head>
+            <title>BootsCut: Cut Bootstrap into Pieces</title>
+            <link href="css/bootstrap.min.css" rel="stylesheet">
+            <style>
+                body {
+                    font-size: 18px;
+                }
+                span, a {
+                    line-height: 200%;
+                    display: block;
+                }
+                div {
+                    border: black solid 1px;
+                    margin: 10px;
+                }
+                li {
+                    list-style-position: inside;
+                    margin: 0;
+                }
+                h1 {
+                    font-weight: 600;
+                    font-size: 20px;
+                    letter-spacing: .8px;
+                    color: white;
+                    ;
+                    background-color: #2C788B;
+                    padding-left: 20px;
+                    text-align: center;
+                    margin: 0;
+                }
+                ul {
+                    padding: 0;
+                    margin: 0;
+
+                }
+                ul > li > span {
+                    background-color: #A52020;
+                    color: white;
+                    padding-left: 20px;
+                }
+                ul ul {
+                    padding-left: 20px;
+                }
+                ul ul span {
+                    background-color: transparent;
+                    color: gray;
+                    padding-left: 0;
+                }
+            </style>
+        </head>
+        
+        <body>
+            <div>
+                <h1>Scaffolding</h1>
                 <ul>
-                    <li><a href="normalize/normalize.html">normalize.css</a></li>
-                    <li><a href="normalize_and_reset_Bootstrap.html">Bootstrap's "Normalize and reset"</a></li>
+                    <li>
+                        <span>Normalize</span>
+                        <ul>
+                            <li>
+                                <a href="normalize/normalize.html">normalize.css</a>
+                            </li>
+                            <li>
+                                <a href="normalize_and_reset_Bootstrap.html">Bootstrap's "Normalize and reset"</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span>Clearfix</span>
+                        <ul>
+                            <li>
+                                <a href="clearfix/clearfix_bootstrap.html">Bootstrap's clearfix</a>
+                            </li>
+                            <li>
+                                <a href="clearfix/clearfix_h5bp.html">HTML5 Boilerplate's Micro Clearfix</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span>Body type and links</span>
+                        <ul>
+                            <li>
+                                <a href="body/body.html">Body</a>
+                            </li>
+                            <li>
+                                <a href="links/a.html">Links</a>
+                            </li>
+                            <li>
+                                <a href="images/img.html">Images</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span>Grid system</span>
+                        <ul>
+                            <li>
+                                <span>Default gird</span>
+                                <ul>
+                                    <li>
+                                        <a href="#">Fixed row</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Fluid row</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span>Customize grid</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span>Layouts</span>
+                    </li>
                 </ul>
-            </li>
-            <li><span>Clearfix</span>
-                <ul>
-                    <li><a href="clearfix/clearfix_bootstrap.html">Bootstrap's clearfix</a></li>
-            <li><a href="clearfix/clearfix_h5bp.html">HTML5 Boilerplate's Micro Clearfix</a></li>
-                </ul>
-            </li>
-            <li><span>Body type and links</span></li>
-            <li><span>Grid system</span></li>
-            <li><span>Layouts</span></li>
-        </ul>
-    </body>
-</html>
+            </div>
+        </body>
+    
+    </html>
 </DOCTYPE!>
