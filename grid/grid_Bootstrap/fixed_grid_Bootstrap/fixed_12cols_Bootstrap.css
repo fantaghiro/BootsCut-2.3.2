@@ -1,0 +1,100 @@
+.row {
+  margin-left: -20px; /*用于解决一行开头的那一列左侧的margin不应显示出来的问题*/
+  *zoom: 1;
+}
+/*下面三条是清除浮动，因为span类是浮动的，所以作为父元素的row必须要清除浮动*/
+.row:before,
+.row:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.row:after {
+  clear: both;
+}
+[class*="span"] { /*这里统一代表了任何含有span字样的class*/
+  float: left;
+  min-height: 1px;
+  margin-left: 20px;/*在左侧遇到.row的时候，正好和.row的负margin对消；在没有遇到.row的时候，就显示为每一列左侧出现的空白间隙。*/
+}
+/*下面这一条可以看出Bootstrap其实显示在页面上是一个宽度为940的容器。其实，可以视为共有宽为80px的列12列，这80px中，左侧的20px其实是给了margin了，作为中间的留空；60px给了内容。这样8*12=960.但是由于第一列内容左侧不需要显示空白，因此就用.row左侧的负margin抵消掉了，所以就是960-20=940px了。*/
+.container,
+.navbar-static-top .container,
+.navbar-fixed-top .container,
+.navbar-fixed-bottom .container {
+  width: 940px;
+}
+/*span(n)的长度应该为n*60+(n-1)*20*/
+.span12 {
+  width: 940px;
+}
+.span11 {
+  width: 860px;
+}
+.span10 {
+  width: 780px;
+}
+.span9 {
+  width: 700px;
+}
+.span8 {
+  width: 620px;
+}
+.span7 {
+  width: 540px;
+}
+.span6 {
+  width: 460px;
+}
+.span5 {
+  width: 380px;
+}
+.span4 {
+  width: 300px;
+}
+.span3 {
+  width: 220px;
+}
+.span2 {
+  width: 140px;
+}
+.span1 {
+  width: 60px;
+}
+/*关于offset，可以这样理解，例如，要offset n列，那么左边在界面上就要看到向左推移了n个60px和20px也就是n*80；同时由于.row有个负的margin-left,offset还要抵消这个，所以宽度为n*80+20px*/
+.offset12 {
+  margin-left: 980px;
+}
+.offset11 {
+  margin-left: 900px;
+}
+.offset10 {
+  margin-left: 820px;
+}
+.offset9 {
+  margin-left: 740px;
+}
+.offset8 {
+  margin-left: 660px;
+}
+.offset7 {
+  margin-left: 580px;
+}
+.offset6 {
+  margin-left: 500px;
+}
+.offset5 {
+  margin-left: 420px;
+}
+.offset4 {
+  margin-left: 340px;
+}
+.offset3 {
+  margin-left: 260px;
+}
+.offset2 {
+  margin-left: 180px;
+}
+.offset1 {
+  margin-left: 100px;
+}

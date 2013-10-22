@@ -1,0 +1,124 @@
+<DOCTYPE! html>
+    <html>
+        
+        <head>
+            <title>Bootstrap的12col fixed grid设置</title>
+            <link href="fixed_12cols_Bootstrap.css" rel="stylesheet">
+            <style>
+                [class*="span"] {
+                    background-color: #e4e4e4;
+                }
+            </style>
+        </head>
+        
+        <body>
+            <p>Bootstrap默认的栅格系统为12列 ，形成一个940px宽的容器.</p>
+            <p>在12列、宽为940的固定宽度的grid系统中，供用到三个class，分别是：row用于定义行或者嵌套行；span用于定列宽；offset用于代表留空的列。具体示例如下：</p>
+            <h1>一行两列的情况</h1>
+            1:11
+            <div class="row">
+                <div class="span1">span1</div>
+                <div class="span11">span11</div>
+            </div>
+            2:10
+            <div class="row">
+                <div class="span2">span2</div>
+                <div class="span10">span10</div>
+            </div>
+            3:9
+            <div class="row">
+                <div class="span3">span3</div>
+                <div class="span9">span9</div>
+            </div>
+            4:8
+            <div class="row">
+                <div class="span4">span4</div>
+                <div class="span8">span8</div>
+            </div>
+            5:7
+            <div class="row">
+                <div class="span5">span5</div>
+                <div class="span7">span7</div>
+            </div>
+            6:6
+            <div class="row">
+                <div class="span6">span6</div>
+                <div class="span6">span6</div>
+            </div>
+            7:5
+            <div class="row">
+                <div class="span7">span7</div>
+                <div class="span5">span5</div>
+            </div>
+            8:4
+            <div class="row">
+                <div class="span8">span8</div>
+                <div class="span4">span4</div>
+            </div>
+            9:3
+            <div class="row">
+                <div class="span9">span9</div>
+                <div class="span3">span3</div>
+            </div>
+            10:2
+            <div class="row">
+                <div class="span10">span10</div>
+                <div class="span2">span2</div>
+            </div>
+            11:1
+            <div class="row">
+                <div class="span11">span11</div>
+                <div class="span1">span1</div>
+            </div>
+            12:0
+            <div class="row">
+                <div class="span12">span12</div>
+            </div>
+            <h1>一行三列的几种情况</h1>
+            4:4:4
+            <div class="row">
+                <div class="span4">span4</div>
+                <div class="span4">span4</div>
+                <div class="span4">span4</div>
+            </div>
+            2:8:2
+            <div class="row">
+                <div class="span2">span2</div>
+                <div class="span8">span8</div>
+                <div class="span2">span2</div>
+            </div>
+            <h1>一行四列的一种情况</h1>
+            3:3:3:3
+            <div class="row">
+                <div class="span3">span3</div>
+                <div class="span3">span3</div>
+                <div class="span3">span3</div>
+                <div class="span3">span3</div>
+            </div>
+            <h1>嵌套行的情况</h1>
+            显示9:3，然后再9里面嵌套一个3:6
+            <div class="row">
+                <div class="span9">span9
+                <div class="row">
+                    <div class="span3">span3</div>
+                    <div class="span6">span6</div>
+                </div>
+                </div>
+                <div class="span3">span3</div>
+            </div>
+            <h1>使用offset的情况</h1>
+            span4:offset4:span4
+            <div class="row">
+                <div class="span4">span4</div>
+                <div class="span4 offset4">span4</div>
+            </div>
+            offset2:span8:span2
+            <div class="row">
+                <div class="span8 offset2">span8</div>
+                <div class="span2">span2</div>
+            </div>
+
+        </body>
+    
+    </html>
+</DOCTYPE!>
