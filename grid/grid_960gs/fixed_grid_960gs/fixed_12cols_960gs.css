@@ -58,10 +58,11 @@ body {
 .push_9, .pull_9,
 .push_10, .pull_10,
 .push_11, .pull_11 {
-  position: relative;
+  position: relative; /*带有pull的grid是相对于父元素进行relative定位*/
 }
 
 /* `Grid >> Children (Alpha ~ First, Omega ~ Last)
+ *  Alpha和Omega是用于设定嵌套在父grid里面的子grid的第一栏的margin-left和最后一栏的margin-right
 ----------------------------------------------------------------------------------------------------*/
 
 .alpha {
@@ -73,6 +74,8 @@ body {
 }
 
 /* `Grid >> 12 Columns
+ *  每个长度的grid的长度加上20px就都是80px的倍数，20px是grid左
+ *  右的margin长度相加
 ----------------------------------------------------------------------------------------------------*/
 
 .container_12 .grid_1 {
@@ -124,6 +127,7 @@ body {
 }
 
 /* `Prefix Extra Space >> 12 Columns
+ *  960gs中的prefix就相当于Bootstrap里面的offset
 ----------------------------------------------------------------------------------------------------*/
 
 .container_12 .prefix_1 {
@@ -171,6 +175,7 @@ body {
 }
 
 /* `Suffix Extra Space >> 12 Columns
+ *  prefix是放在grid前面的，那么suffix就是放在grid后面的
 ----------------------------------------------------------------------------------------------------*/
 
 .container_12 .suffix_1 {
@@ -218,6 +223,7 @@ body {
 }
 
 /* `Push Space >> 12 Columns
+ *  push是通过相对定位而非用padding-left的方式，给grid定位，push就是将grid在其原应该在的位置向右推。
 ----------------------------------------------------------------------------------------------------*/
 
 .container_12 .push_1 {
@@ -265,6 +271,7 @@ body {
 }
 
 /* `Pull Space >> 12 Columns
+ *  pull是通过相对定位而非用padding-right的方式，给grid定位pull就是将grid在其原应该在的位置向左拉。
 ----------------------------------------------------------------------------------------------------*/
 
 .container_12 .pull_1 {
@@ -312,6 +319,7 @@ body {
 }
 
 /* `Clear Floated Elements
+ *  以下用于清除浮动
 ----------------------------------------------------------------------------------------------------*/
 
 /* http://sonspring.com/journal/clearing-floats */

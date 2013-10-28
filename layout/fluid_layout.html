@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fluid Layout</title>
+        <link href="fluid_layout.css" rel="stylesheet">
+        <style>
+        .container-fluid {
+            height: 200px;
+            background-color: #e5e5e5;
+        }
+        </style>
+    </head>
+    <body>
+    <div class="container-fluid">流动布局，其实就是给流动栅格系统（grid system）外面添加一个居中并清除浮动的container-fluid类。在Layout当中，container仅设置其为居中，并且给container左右添加了padding。相对来讲，fluid布局较固定宽度布局的原理来得更简单一些。通过container-fluid与流动布局的grid system（row-fluid和span）可以很方便的进行各种流式排版的布局。<br />
+    由于固定宽度的布局是有宽度的，而且container是居中的，所以不需要给container左右再添加padding；但是流动布局，左右是没有空隙的，所以给contain-fluid左右添加了20px的padding，使得内容区域不仅靠窗口边缘。</div>    
+    </body>
+</html>

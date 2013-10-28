@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fixed-width Layout</title>
+        <link href="fixed_width_layout.css" rel="stylesheet">
+        <style>
+        .container {
+            height: 200px;
+            background-color: #e5e5e5;
+        }
+        </style>
+    </head>
+    <body>
+    <div class="container">固定宽度的布局，其实就是给固定宽度的栅格系统（grid system）外面添加一个居中并清除浮动的container类。在Layout当中，container仅设置其为居中的，而在具体的grid system中有对于.container的宽度的明确设定。这样的设置有助于后续Bootstrap进行栅格系统和布局的定制。如果将设置在grid当中的container的宽度用于layout当中，其实是不具备普适性的。后续Bootstrap栅格系统和布局的定制是可以自行设定宽度值的。</div>    
+    </body>
+</html>
