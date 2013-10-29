@@ -108,6 +108,7 @@
   }
 }
 
+/*下面是给1200px以上的屏幕专门写了一个12栏的grid system，包括固定宽度和流式布局*/
 @media (min-width: 1200px) {
   .row {
     margin-left: -30px;
@@ -458,6 +459,7 @@
   }
 }
 
+/*以下是为768px至979px之间的屏幕，专门写的一个12栏的grid，包含固定宽度和流动布局*/
 @media (min-width: 768px) and (max-width: 979px) {
   .row {
     margin-left: -20px;
@@ -799,6 +801,7 @@
   }
 }
 
+/767px以下的屏幕/
 @media (max-width: 767px) {
   body {
     padding-right: 20px;
@@ -949,6 +952,7 @@
   }
 }
 
+/*979px以下的屏幕*/
 @media (max-width: 979px) {
   body {
     padding-top: 0;
@@ -1101,6 +1105,7 @@
   }
 }
 
+/980px以上的屏幕/
 @media (min-width: 980px) {
   .nav-collapse.collapse {
     height: auto !important;
