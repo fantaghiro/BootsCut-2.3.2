@@ -7,12 +7,25 @@
     </list>
     <ignored path="BootsCut-2.3.2.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="dede46df-81af-41ab-abfc-b1e8b78a434b" time="1383745169942" ignored="false" />
-    <file path="/index.html" changelist="dede46df-81af-41ab-abfc-b1e8b78a434b" time="1383652793465" ignored="false" />
+    <file path="/Dummy.txt" changelist="dede46df-81af-41ab-abfc-b1e8b78a434b" time="1383994426310" ignored="false" />
+    <file path="/index.html" changelist="dede46df-81af-41ab-abfc-b1e8b78a434b" time="1383996713738" ignored="false" />
     <file path="/a.dummy" changelist="dede46df-81af-41ab-abfc-b1e8b78a434b" time="1382937795604" ignored="false" />
     <file path="/heading.css" changelist="dede46df-81af-41ab-abfc-b1e8b78a434b" time="1383480385778" ignored="false" />
     <file path="/heading.html" changelist="dede46df-81af-41ab-abfc-b1e8b78a434b" time="1383482235775" ignored="false" />
     <file path="/paragraph.html" changelist="dede46df-81af-41ab-abfc-b1e8b78a434b" time="1383652588872" ignored="false" />
+    <file path="/emphasis.html" changelist="dede46df-81af-41ab-abfc-b1e8b78a434b" time="1383965292037" ignored="false" />
+    <file path="/emphasis.css" changelist="dede46df-81af-41ab-abfc-b1e8b78a434b" time="1383965232161" ignored="false" />
+    <file path="/alignment.css" changelist="dede46df-81af-41ab-abfc-b1e8b78a434b" time="1383966726885" ignored="false" />
+    <file path="/alignment.html" changelist="dede46df-81af-41ab-abfc-b1e8b78a434b" time="1383967049912" ignored="false" />
+    <file path="/emphasis_color.html" changelist="dede46df-81af-41ab-abfc-b1e8b78a434b" time="1383967306068" ignored="false" />
+    <file path="/unordered_list.css" changelist="dede46df-81af-41ab-abfc-b1e8b78a434b" time="1383994918936" ignored="false" />
+    <file path="/unordered_list.html" changelist="dede46df-81af-41ab-abfc-b1e8b78a434b" time="1383995781288" ignored="false" />
+    <file path="/DummyFile.xpath" changelist="dede46df-81af-41ab-abfc-b1e8b78a434b" time="1383994959910" ignored="false" />
+    <file path="/ordered_list.html" changelist="dede46df-81af-41ab-abfc-b1e8b78a434b" time="1383996478087" ignored="false" />
+    <file path="/unstyled_list.html" changelist="dede46df-81af-41ab-abfc-b1e8b78a434b" time="1383996490422" ignored="false" />
+    <file path="/inline_list.css" changelist="dede46df-81af-41ab-abfc-b1e8b78a434b" time="1383996436037" ignored="false" />
+    <file path="/inline_list.html" changelist="dede46df-81af-41ab-abfc-b1e8b78a434b" time="1383996601323" ignored="false" />
+    <file path="/dummy.xml" changelist="dede46df-81af-41ab-abfc-b1e8b78a434b" time="1383996565954" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,10 +45,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="135" column="76" selection-start="5767" selection-end="5767" vertical-scroll-proportion="0.5706522">
+            <state line="148" column="62" selection-start="6988" selection-end="6988" vertical-scroll-proportion="-24.958334">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vertical_definition_list.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Typography/List/Definition list/Vertical definition list/vertical_definition_list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vertical_definition_list.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Typography/List/Definition list/Vertical definition list/vertical_definition_list.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="horizontal_definition_list.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Typography/List/Definition list/Horizontal definition list/horizontal_definition_list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="horizontal_definition_list.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Typography/List/Definition list/Horizontal definition list/horizontal_definition_list.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inline_list.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Typography/List/Inline list/inline_list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="16" selection-start="292" selection-end="292" vertical-scroll-proportion="-8.75">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inline_list.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Typography/List/Inline list/inline_list.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="32" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/bootstrap-2.3.2/docs/assets/css/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="847" column="20" selection-start="11506" selection-end="11704" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -59,19 +135,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Typography/heading.css" />
-        <option value="$PROJECT_DIR$/Typography/heading.html" />
-        <option value="$PROJECT_DIR$/Typography/Heading/heading.html" />
-        <option value="$PROJECT_DIR$/Typography/Paragraph/paragraph.css" />
         <option value="$PROJECT_DIR$/Typography/Paragraph/paragraph.html" />
+        <option value="$PROJECT_DIR$/Typography/Emphasis/emphasis.css" />
+        <option value="$PROJECT_DIR$/Typography/Emphasis/emphasis.html" />
+        <option value="$PROJECT_DIR$/Typography/Alignment/alignment.css" />
+        <option value="$PROJECT_DIR$/Typography/Alignment/alignment.html" />
+        <option value="$PROJECT_DIR$/Typography/Emphasis with colors/emphasis_color.html" />
+        <option value="$PROJECT_DIR$/Typography/List/Unordered list/unordered_list.html" />
+        <option value="$PROJECT_DIR$/Typography/List/Unordered list/unordered_list.css" />
+        <option value="$PROJECT_DIR$/Typography/List/Ordered list/ordered_list.css" />
+        <option value="$PROJECT_DIR$/Typography/List/Unstyled list/unstyled_list.css" />
+        <option value="$PROJECT_DIR$/Typography/List/Ordered list/ordered_list.html" />
+        <option value="$PROJECT_DIR$/Typography/List/Unstyled list/unstyled_list.html" />
+        <option value="$PROJECT_DIR$/Typography/List/Inline list/inline_list.html" />
+        <option value="$USER_HOME$/Desktop/bootstrap-2.3.2/docs/assets/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/Typography/List/Inline list/inline_list.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1079" />
+    <option name="x" value="533" />
     <option name="y" value="22" />
-    <option name="width" value="831" />
+    <option name="width" value="1377" />
     <option name="height" value="1090" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -88,7 +174,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -99,12 +185,188 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BootsCut-2.3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BootsCut-2.3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BootsCut-2.3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BootsCut-2.3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BootsCut-2.3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Typography" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BootsCut-2.3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BootsCut-2.3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Typography" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="List" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Unstyled list" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BootsCut-2.3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BootsCut-2.3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Typography" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="List" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Unordered list" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BootsCut-2.3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BootsCut-2.3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Typography" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="List" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ordered list" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BootsCut-2.3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BootsCut-2.3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Typography" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="List" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Inline list" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BootsCut-2.3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BootsCut-2.3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Typography" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="List" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Definition list" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vertical definition list" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BootsCut-2.3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BootsCut-2.3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Typography" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="List" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Definition list" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Horizontal definition list" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="fileTemplates" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
@@ -116,7 +378,7 @@
       <recent name="$PROJECT_DIR$/Typography/Heading" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.inline_list.html">
     <configuration default="false" name="index.html" type="JavascriptDebugSession" factoryName="Local" singleton="true" temporary="true">
       <JSDebuggerConfigurationSettings>
         <option name="engineId" value="embedded" />
@@ -126,10 +388,37 @@
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="paragraph.html" type="JavascriptDebugSession" factoryName="Local" singleton="true" temporary="true">
+    <configuration default="false" name="heading.html" type="JavascriptDebugSession" factoryName="Local" singleton="true" temporary="true">
       <JSDebuggerConfigurationSettings>
         <option name="engineId" value="embedded" />
-        <option name="fileUrl" value="file://$PROJECT_DIR$/Typography/Paragraph/paragraph.html" />
+        <option name="fileUrl" value="file://$PROJECT_DIR$/Typography/Heading/heading.html" />
+      </JSDebuggerConfigurationSettings>
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="alignment.html" type="JavascriptDebugSession" factoryName="Local" singleton="true" temporary="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" value="file://$PROJECT_DIR$/Typography/Alignment/alignment.html" />
+      </JSDebuggerConfigurationSettings>
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="unordered_list.html" type="JavascriptDebugSession" factoryName="Local" singleton="true" temporary="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" value="file://$PROJECT_DIR$/Typography/List/Unordered list/unordered_list.html" />
+      </JSDebuggerConfigurationSettings>
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="inline_list.html" type="JavascriptDebugSession" factoryName="Local" singleton="true" temporary="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" value="file://$PROJECT_DIR$/Typography/List/Inline list/inline_list.html" />
       </JSDebuggerConfigurationSettings>
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
@@ -150,14 +439,20 @@
       </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
-    <list size="2">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.paragraph.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.heading.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.alignment.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.unordered_list.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.inline_list.html" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.paragraph.html" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.inline_list.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.unordered_list.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.alignment.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.heading.html" />
       </list>
     </recent_temporary>
   </component>
@@ -188,13 +483,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1079" y="22" width="831" height="1090" extended-state="0" />
+    <frame x="533" y="22" width="1377" height="1090" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36881188" sideWeight="0.94341564" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17725259" sideWeight="0.84156376" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -269,71 +564,119 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/Typography/Emphasis with colors/emphasis_color.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Typography/Alignment/alignment.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="119" selection-end="119" vertical-scroll-proportion="0.17478813">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Typography/List/Ordered list/ordered_list.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="28" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Typography/List/Unordered list/unordered_list.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="138" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Typography/List/Ordered list/ordered_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="12" selection-start="69" selection-end="69" vertical-scroll-proportion="-2.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Typography/List/Unordered list/unordered_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="36" selection-start="764" selection-end="764" vertical-scroll-proportion="-16.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Typography/List/Unstyled list/unstyled_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="36" selection-start="867" selection-end="867" vertical-scroll-proportion="0.4402174">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Typography/List/Unstyled list/unstyled_list.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="138" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/bootstrap-2.3.2/docs/assets/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="847" column="20" selection-start="11506" selection-end="11704" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Typography/List/Inline list/inline_list.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="32" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Typography/List/Inline list/inline_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="16" selection-start="292" selection-end="292" vertical-scroll-proportion="-8.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="148" column="62" selection-start="6988" selection-end="6988" vertical-scroll-proportion="-24.958334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Typography/List/Definition list/Vertical definition list/vertical_definition_list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Typography/Heading/heading.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="42" selection-start="895" selection-end="895" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Typography/Heading/heading.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="34" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/Typography/List/Definition list/Vertical definition list/vertical_definition_list.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Typography/Heading/heading.css">
+    <entry file="file://$PROJECT_DIR$/Typography/List/Definition list/Horizontal definition list/horizontal_definition_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="34" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Typography/Heading/heading.html">
+    <entry file="file://$PROJECT_DIR$/Typography/List/Definition list/Horizontal definition list/horizontal_definition_list.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="306" selection-start="476" selection-end="476" vertical-scroll-proportion="-5.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Typography/Paragraph/paragraph.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="20" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Typography/Paragraph/paragraph.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="153" selection-start="484" selection-end="484" vertical-scroll-proportion="0.2173913" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layout/Bootstrap_fixed_width_layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/links/a.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="135" column="76" selection-start="5767" selection-end="5767" vertical-scroll-proportion="0.5706522">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
