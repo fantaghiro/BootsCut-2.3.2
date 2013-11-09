@@ -1,0 +1,14 @@
+p {
+    margin: 0 0 10px;
+}
+.lead {
+    margin-bottom: 20px;
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 30px;
+}
+.page-header {
+    padding-bottom: 9px;
+    margin: 20px 0 30px;
+    border-bottom: 1px solid #eeeeee;
+}
