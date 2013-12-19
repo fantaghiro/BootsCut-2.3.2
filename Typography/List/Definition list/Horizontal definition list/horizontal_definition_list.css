@@ -1,0 +1,45 @@
+dl {
+  margin-bottom: 20px;
+}
+
+dt,
+dd {
+  line-height: 20px;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-left: 10px;
+}
+
+.dl-horizontal {
+  *zoom: 1;
+} /*星号是针对IE6-7，触发layout*/
+
+.dl-horizontal:before,
+.dl-horizontal:after {
+  display: table;
+  line-height: 0;
+  content: "";
+} /*用于清除浮动*/
+
+.dl-horizontal:after {
+  clear: both;
+} /*用于清除浮动*/
+
+.dl-horizontal dt {
+  float: left;
+  width: 160px;
+  overflow: hidden;
+  clear: left;
+  text-align: right;
+  text-overflow: ellipsis; /*超出部分用省略号代替*/
+  white-space: nowrap; /*文本不换行，直到遇到<br>为止*/
+}
+
+.dl-horizontal dd {
+  margin-left: 180px;
+}
